@@ -30,7 +30,10 @@ This is a full-stack Flask web application that analyzes IPL (Indian Premier Lea
 
 ## 🖼️ UI Preview
 
-> Add screenshots here (e.g., Team Comparison, Player Summary)
+## 🖼️ UI Preview
+
+![Player Stats Page](https://github.com/Singhrahul2511/ipl-analytics-api-dashboard/blob/main/Screenshot%202025-06-26%20031951.png)
+
 
 ---
 
@@ -42,9 +45,6 @@ This is a full-stack Flask web application that analyzes IPL (Indian Premier Lea
 
 ---
 
-## 📄 License
-
-This project is MIT licensed. Feel free to fork, deploy, or build on top of it.
 
 ---
 
