@@ -30,9 +30,14 @@ This is a full-stack Flask web application that analyzes IPL (Indian Premier Lea
 
 ## 🖼️ UI Preview
 
-## 🖼️ UI Preview
-
 ![Player Stats Page](https://github.com/Singhrahul2511/ipl-analytics-api-dashboard/blob/main/Screenshot%202025-06-26%20031951.png)
+
+![Player Stats Page](https://github.com/Singhrahul2511/ipl-analytics-api-dashboard/blob/main/Screenshot%202025-06-26%20032010.png)
+
+
+![Player Stats Page](https://github.com/Singhrahul2511/ipl-analytics-api-dashboard/blob/main/Screenshot%202025-06-26%20032100.png)
+
+![Player Stats Page](https://github.com/Singhrahul2511/ipl-analytics-api-dashboard/blob/main/Screenshot%202025-06-26%20032110.png)
 
 
 ---
