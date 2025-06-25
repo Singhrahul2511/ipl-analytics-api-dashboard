@@ -45,8 +45,8 @@ This is a full-stack Flask web application that analyzes IPL (Indian Premier Lea
 ## ✨ How to Use
 
 1. Enter team names or player nicknames (e.g., `mi`, `msd`)
-2. View real-time stats and charts
-3. Easily deployable to Render or Railway
+2. View real-time stats
+3. Easily deployable to Railway
 
 ---
 
