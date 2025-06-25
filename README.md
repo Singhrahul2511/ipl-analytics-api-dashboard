@@ -1,108 +1,59 @@
-✅ 1. Project Title (Repository Name)
-ipl-analytics-api-dashboard
-✅ 2. Professional README.md Content
-# IPL Analytics API Dashboard 🏏
+# 🏏 IPL Analytics API Dashboard
 
-A full-stack web application built with Flask that analyzes and visualizes Indian Premier League (IPL) cricket statistics using historical match and ball-by-ball data from 2008 to 2022.
+This is a full-stack Flask web application that analyzes IPL (Indian Premier League) cricket data from 2008–2022. It provides clean API endpoints and a dynamic frontend dashboard to compare teams and analyze player performance in real-time.
 
-## 🚀 Features
+🔗 **Live App:** [https://web-production-b0099.up.railway.app](https://web-production-b0099.up.railway.app)
 
-- 📊 **Team vs Team Analysis** – Compare head-to-head performance between any two IPL teams.
-- 🧠 **Batsman & Bowler Stats** – Analyze performance metrics like runs, strike rate, wickets, economy, and more.
-- 🎨 **Responsive UI** – Clean, Bootstrap-powered layout with two-column structure.
-- 🔌 **REST API Backend** – Modular API design using Flask to serve JSON endpoints.
-- 🔍 **Dynamic Frontend** – Communicates with the API server and updates results instantly.
+## 📊 Features
 
----
+- ✅ Team vs Team win/loss head-to-head analysis
+- ✅ Batting and Bowling record lookup by player name
+- ✅ Fuzzy name matching for teams & players (e.g. "msd", "mumbai", "rcb")
+- ✅ Bootstrap-powered responsive UI
+- ✅ Hosted for free on Railway
 
-## 📂 Folder Structure
+## 🧠 Tech Stack
 
-ipl-analytics-api-dashboard/
-├── backend/ # Core API service
-│ ├── app.py
-│ ├── ipl.py
-│ └── jugaad.py
-├── frontend/ # UI interface for interacting with the API
-│ ├── app.py
-│ └── templates/
-│ └── index.html
-├── data/ # CSV data (if not pulled from Google Sheets)
-│ ├── IPL_Ball_by_Ball_2008_2022.csv
-│ └── IPL_Matches_2008_2022.csv
-├── README.md
-└── requirements.txt
+- Python, Flask, Pandas
+- HTML, Bootstrap 5, Jinja2
+- Hosted on Railway
+- Data Source: IPL Ball-by-Ball & Match Dataset (2008–2022)
 
+## 📁 API Endpoints
 
----
+| Route                            | Description                             |
+|----------------------------------|-----------------------------------------|
+| `/api/teams`                     | Returns all IPL teams                   |
+| `/api/teamvteam?team1=X&team2=Y` | Head-to-head results                    |
+| `/api/batting-record?batsman=X`  | Batting stats for player X              |
+| `/api/bowling-record?bowler=X`   | Bowling stats for player X              |
 
-## 📦 How to Run
+## 🖼️ UI Preview
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/ipl-analytics-api-dashboard.git
-cd ipl-analytics-api-dashboard
-2. Install Dependencies
-pip install -r requirements.txt
-3. Run Backend API (Port 5000)
-cd backend
-python app.py
-4. Run Frontend App (Port 7000)
-cd frontend
-python app.py
-🧪 Sample API Endpoints
-/api/teams
-
-/api/teamvteam?team1=MI&team2=CSK
-
-/api/batting-record?batsman=MS Dhoni
-
-/api/bowling-record?bowler=Jasprit Bumrah
-
-🛠️ Tech Stack
-Python
-
-Flask
-
-Pandas / NumPy
-
-HTML5 + Bootstrap 5
-
-REST API
-
-📊 Data Source
-Kaggle IPL Dataset (2008-2022)
-
-Integrated via Google Sheets CSV links
-
-
-✨ Screenshots (Optional)
-Add screenshots of your UI here with batsman and bowler analysis views.
-
-🤝 Contact
-Rahul Kumar
-LinkedIn: linkedin.com/in/rahul-kumar-8ab740268
-GitHub: github.com/Singhrahul2511
-
-🌟 Give a Star
-If you found this project useful, please ⭐️ the repository!
-
+> Add screenshots here (e.g., Team Comparison, Player Summary)
 
 ---
 
-## ✅ 3. **Professional Commit Messages**
-- `init: added base flask api and html`
-- `feat: added batsman and bowler analysis endpoints`
-- `fix: moved result display below stats form`
-- `ui: applied bootstrap layout and styling`
-- `docs: added README and API usage details`
+## ✨ How to Use
+
+1. Enter team names or player nicknames (e.g., `mi`, `msd`)
+2. View real-time stats and charts
+3. Easily deployable to Render or Railway
 
 ---
 
-## ✅ 4. **requirements.txt**
-Make sure this exists:
+## 📄 License
 
-```txt
-Flask
-requests
-pandas
-numpy
+This project is MIT licensed. Feel free to fork, deploy, or build on top of it.
+
+---
+
+## 🙋‍♂️ Author
+
+**Rahul Kumar**  
+🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-8ab740268)  
+💻 [GitHub](https://github.com/Singhrahul2511)
+
+---
+
+⭐ If you like this project, give it a star and share!
