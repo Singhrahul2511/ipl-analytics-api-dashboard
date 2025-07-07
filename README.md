@@ -62,3 +62,6 @@ This is a full-stack Flask web application that analyzes IPL (Indian Premier Lea
 ---
 
 ⭐ If you like this project, give it a star and share!
+
+
+🔗 **Chatgpt:** [https://chatgpt.com/share/686b8432-59b0-8002-9f58-69c4d228841f)
